@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"Darling Girl";
+    src: url(fonts/Darling\ Girl.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"Be-My-Glittertine" ;
+    src: url(fonts/Be\-My\-Glittertine.ttf) format(Truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Tangerine-Regular";
+    src: url(fonts/Tangerine-Regular.ttf) format(Truetype);
+    font-weight: 400;
+    font-style: normal
+}
+body{
+    background: linear-gradient(135deg,#af5569, #f894a9, #e9a7b6);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+h1{
+    font-family:"Tangerine-Regular", cursive;
+    font-size: 6em;
+    color: #32000B;
+    text-align: center;
+}
+p{
+    font-family:"Be-My-Glittertine" ;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+}
+h2{
+    font-family: "Tangerine-Regular", cursive;
+    font-size: 2em;
+    text-align: center;
+
+}
+.motivos{
+    font-size: 5em;
+    color: #32000B;
+}
+.motivos2{
+    font-size: 1em;
+}
+.musica{
+    font-size: 5em;
+    color: #32000B;;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    width: 1100px;
+    box-shadow: 5px 5px 15px #83515cad
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+    text-align: left;
+    font-size: 0.7em;
+}
+.right{
+    text-align: right;
+    font-size: 0.7em;
+}
+.controle{
+    text-align: center;
+}
+.fim{
+    font-style: italic;
+    font-size: 2em;
+}
